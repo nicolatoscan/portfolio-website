@@ -29,7 +29,7 @@
   </main>
   <footer>
     <p>
-      Nicola Toscan | <a href="https://github.com/nicolatoscan">GitHub</a> | <a href="https://www.linkedin.com/in/nicolatoscan/">LinkedIn</a>
+      Nicola Toscan - {{ new Date().getFullYear() }}| <a href="https://github.com/nicolatoscan">GitHub</a> | <a href="https://www.linkedin.com/in/nicolatoscan/">LinkedIn</a>
     </p>
   </footer>
 </template>
@@ -40,7 +40,7 @@ import { defineComponent } from "vue";
 export default defineComponent({
   name: "App",
   components: {
-  },
+  }
 });
 </script>
 
